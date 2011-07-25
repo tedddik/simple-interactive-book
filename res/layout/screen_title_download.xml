@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/titled_fl_main"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+  android:orientation="vertical">
+    <ImageView android:id="@+id/titled_iv_main" 
+    	android:src="@drawable/m80_sc_a01c01_01_main" android:adjustViewBounds="true" android:scaleType="centerCrop" 
+    	android:layout_width="fill_parent" android:layout_height="wrap_content"></ImageView>
+    <ImageView android:id="@+id/titled_iv_Background_fade" android:adjustViewBounds="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:src="@drawable/shadow"></ImageView>
+
+    <LinearLayout android:id="@+id/titled_ll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	    <LinearLayout android:id="@+id/titled_ll_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="20dip" android:orientation="vertical">
+	        <TextView android:id="@+id/titled_tv_title" android:layout_height="wrap_content" android:text="@string/application_name" android:textSize="24dip" android:layout_width="fill_parent" android:layout_gravity="center" android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="2" android:layout_marginBottom="20dip"></TextView>
+	        <TextView android:id="@+id/titled_tv_status" android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    </LinearLayout>
+	    <ScrollView android:id="@+id/titled_sv_ScrollContainer" android:layout_width="fill_parent" android:paddingBottom="10dip" android:paddingLeft="10dip" android:paddingTop="10dip" android:layout_height="fill_parent" android:layout_gravity="bottom">
+		    <LinearLayout android:id="@+id/titled_ll_buttonContainer" 
+		    	android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dip">
+		        <TextView android:id="@+id/titled_tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_message"  android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="2"></TextView>
+		        <Button android:id="@+id/titled_b_download" 
+		        	android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_margin="10dip" android:text="@string/button_download"></Button>
+		    </LinearLayout>
+	    </ScrollView>
+    </LinearLayout>    
+</FrameLayout>

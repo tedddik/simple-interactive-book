@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    	android:id="@+id/menu_page_history" 
+    	android:title="@string/menu_page_history"  
+    	android:icon="@drawable/ic_menu_recent_history" />
+    <item 
+    	android:id="@+id/menu_page_menu" 
+    	android:title="@string/menu_page_menu" 
+    	android:icon="@drawable/ic_menu_home" />
+    <item 
+    	android:id="@+id/menu_page_back" 
+    	android:icon="@drawable/ic_menu_back" 
+    	android:title="@string/menu_page_back" />
+    <item 
+    	android:id="@+id/menu_page_about" 
+    	android:icon="@drawable/ic_menu_info_details" 
+    	android:title="@string/menu_about" />
+ <!-- 
+    <item 
+    	android:id="@+id/menu_page_help" 
+    	android:icon="@drawable/ic_menu_help" 
+    	android:title="@string/menu_help" />
+ -->
+    <item 
+    	android:title="@string/menu_settings" 
+    	android:id="@+id/menu_page_settings" 
+    	android:icon="@drawable/ic_menu_preferences" />
+ <!-- 
+    <item 
+    	android:id="@+id/menu_page_bgview" 
+    	android:title="@string/menu_page_bgview" 
+    	android:icon="@drawable/ic_menu_gallery" />
+ -->
+    <item 
+    	android:id="@+id/menu_page_startover" 
+    	android:title="@string/menu_page_startover" 
+    	android:icon="@drawable/ic_menu_clear_playlist" />
+</menu>

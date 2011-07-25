@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item type="string" format="integer" name="databaseVersion">1</item>
+    <item type="string" format="integer" name="EULAVersion">1</item>
+    <string name="application_name">Scoundrel\'s Cross</string>
+    <string name="company_name">Minion Factory</string>
+    
+    <string name="erase_history_warning">Doing this will erase any subsequent history. Are you sure?</string>
+    
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_load">Load</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_agree"> Agree </string>
+    <string name="button_disagree">Disagree</string>
+    <string name="button_download">Download</string>
+    
+    <string name="loading">Loading...</string>
+    <string name="loading_license">Negotiating Authority</string>
+    <string name="loading_database">Cataloguing Articulations</string>
+    <string name="loading_splashpage">Pushing Folios</string>
+    <string name="loading_clickskip">Hastily Interacting</string>
+    <string name="loading_complete">Finished</string>
+    <string name="loading_application_error">Application error: %1$s</string>
+    
+    <string name="download_message">This application requires that images be cached on your device prior to using it. This only needs to be completed on the first run, or if there are missing cached images. It will attempt to store them on an external SD card if available. Click the download button to fetch the images now.</string>
+    <string name="downloading_image">Caching Image</string>
+    <string name="checking_image">Checking Image</string>
+    <string name="of">of</string>
+    
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="menu_page_history">History</string>
+    <string name="menu_page_startover">Start Over</string>
+    <string name="menu_page_menu">Menu</string>
+    <string name="menu_page_bgview">View Background</string>
+    <string name="menu_page_back">Back</string>
+    
+    <string name="menu_reset">Reset</string>
+    
+    <string name="dialog_settings_title">Settings</string>
+    <string name="dialog_settings_previewtext">Anei thus granted the deitas permission to tap the essense of his Arenei to create their own races. He did, however, limit the power in which they were able to pull. There was then no creature that could match the perfection of the Arenei.</string>
+    <string name="dialog_settings_preview">Preview</string>
+    <string name="dialog_settings_fontsize">Font Size</string>
+    <string name="dialog_settings_bgalpha">BG Alpha</string>
+    <string-array name="dialog_settings_sa_fontsizes">
+        <item>14 point</item>
+        <item>20 point</item>
+        <item>24 point</item>
+        <item>28 point</item>
+    </string-array>
+    
+    <string name="listview_empty">No history stored.</string>
+    
+    <string name="eula_text"><![CDATA[
+END-USER LICENSE AGREEMENT FOR %1$s IMPORTANT PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM INSTALL: %2$s\'s End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and %2$s. for the %2$s software product(s) identified above which may include associated software components, media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT"). By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning the program between you and %2$s, (referred to as "licenser"), and it supersedes any prior proposal, representation, or understanding between the parties. If you do not agree to the terms of this EULA, do not install or use the SOFTWARE PRODUCT.<br/>
+<br/>
+The SOFTWARE PRODUCT is licensed, not sold.<br/>
+<br/>
+1. GRANT OF LICENSE.<br/>
+The SOFTWARE PRODUCT is licensed as follows:<br/>
+(a) Installation and Use.<br/>
+%2$s grants you the right to install and use copies of the SOFTWARE PRODUCT on your device running a validly licensed copy of the operating system for which the SOFTWARE PRODUCT was designed [e.g., Android, iOS].<br/>
+(b) Backup Copies.<br/>
+You may also make copies of the SOFTWARE PRODUCT as may be necessary for backup and archival purposes.<br/>
+<br/>
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.<br/>
+(a) Maintenance of Copyright Notices.<br/>
+You must not remove or alter any copyright notices on any and all copies of the SOFTWARE PRODUCT.<br/>
+(b) Distribution.<br/>
+You may not distribute registered copies of the SOFTWARE PRODUCT to third parties. Evaluation versions available for download from %2$s\'s websites may be freely distributed.<br/>
+(c) Prohibition on Reverse Engineering, Decompilation, and Disassembly.<br/>
+You may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.<br/>
+(d) Rental.<br/>
+You may not rent, lease, or lend the SOFTWARE PRODUCT.<br/>
+(e) Support Services.<br/>
+%2$s may provide you with support services related to the SOFTWARE PRODUCT ("Support Services"). Any supplemental software code provided to you as part of the Support Services shall be considered part of the SOFTWARE PRODUCT and subject to the terms and conditions of this EULA.<br/>
+(f) Compliance with Applicable Laws.<br/>
+You must comply with all applicable laws regarding use of the SOFTWARE PRODUCT.<br/>
+<br/>
+3. TERMINATION<br/>
+Without prejudice to any other rights, %2$s may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT in your possession.<br/>
+<br/>
+4. COPYRIGHT<br/>
+All title, including but not limited to copyrights, in and to the SOFTWARE PRODUCT and any copies thereof are owned by %2$s or its suppliers. All title and intellectual property rights in and to the content which may be accessed through use of the SOFTWARE PRODUCT is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by %2$s.<br/>
+<br/>
+5. NO WARRANTIES<br/>
+%2$s expressly disclaims any warranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT is provided \'As Is\' without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose. %2$s does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within the SOFTWARE PRODUCT. %2$s makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. %2$s further expressly disclaims any warranty or representation to Authorized Users or to any third party.<br/>
+<br/>
+6. LIMITATION OF LIABILITY<br/>
+In no event shall %2$s be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of \'Authorized Users\' use of or inability to use the SOFTWARE PRODUCT, even if %2$s has been advised of the possibility of such damages. In no event will %2$s be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. %2$s shall have no liability with respect to the content of the SOFTWARE PRODUCT or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information. 
+	]]></string>
+	<!-- 
+    <string name="eula_text"><![CDATA[
+END-USER LICENSE AGREEMENT FOR %1$s IMPORTANT PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM INSTALL: %2$s's End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and %2$s. for the %2$s software product(s) identified above which may include associated software components, media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT"). By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning the program between you and %2$s, (referred to as "licenser"), and it supersedes any prior proposal, representation, or understanding between the parties. If you do not agree to the terms of this EULA, do not install or use the SOFTWARE PRODUCT.
+
+The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold.
+
+1. GRANT OF LICENSE.
+The SOFTWARE PRODUCT is licensed as follows:
+(a) Installation and Use.
+%2$s grants you the right to install and use copies of the SOFTWARE PRODUCT on your computer running a validly licensed copy of the operating system for which the SOFTWARE PRODUCT was designed [e.g., Windows 95, Windows NT, Windows 98, Windows 2000, Windows 2003, Windows XP, Windows ME, Windows Vista].
+(b) Backup Copies.
+You may also make copies of the SOFTWARE PRODUCT as may be necessary for backup and archival purposes.
+
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+(a) Maintenance of Copyright Notices.
+You must not remove or alter any copyright notices on any and all copies of the SOFTWARE PRODUCT.
+(b) Distribution.
+You may not distribute registered copies of the SOFTWARE PRODUCT to third parties. Evaluation versions available for download from %2$s's websites may be freely distributed.
+(c) Prohibition on Reverse Engineering, Decompilation, and Disassembly.
+You may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+(d) Rental.
+You may not rent, lease, or lend the SOFTWARE PRODUCT.
+(e) Support Services.
+%2$s may provide you with support services related to the SOFTWARE PRODUCT ("Support Services"). Any supplemental software code provided to you as part of the Support Services shall be considered part of the SOFTWARE PRODUCT and subject to the terms and conditions of this EULA.
+(f) Compliance with Applicable Laws.
+You must comply with all applicable laws regarding use of the SOFTWARE PRODUCT.
+
+3. TERMINATION
+Without prejudice to any other rights, %2$s may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT in your possession.
+
+4. COPYRIGHT
+All title, including but not limited to copyrights, in and to the SOFTWARE PRODUCT and any copies thereof are owned by %2$s or its suppliers. All title and intellectual property rights in and to the content which may be accessed through use of the SOFTWARE PRODUCT is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by %2$s.
+
+5. NO WARRANTIES
+%2$s expressly disclaims any warranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT is provided 'As Is' without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose. %2$s does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within the SOFTWARE PRODUCT. %2$s makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. %2$s further expressly disclaims any warranty or representation to Authorized Users or to any third party.
+
+6. LIMITATION OF LIABILITY
+In no event shall %2$s be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of 'Authorized Users' use of or inability to use the SOFTWARE PRODUCT, even if %2$s has been advised of the possibility of such damages. In no event will %2$s be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. %2$s shall have no liability with respect to the content of the SOFTWARE PRODUCT or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information. 
+	]]></string>
+	 -->
+</resources>
