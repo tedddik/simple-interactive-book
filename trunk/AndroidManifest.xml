@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.minionfactory.sib"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+ 	<application 
+ 			android:icon="@drawable/icon" 
+ 			android:label="@string/application_name" 
+ 			android:debuggable="true"
+ 			android:allowClearUserData="true"
+ 			android:allowBackup="true"
+ 			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+ 	<!-- 
+ 		To utilize the install-to-sd option. uncomment this area and set the build to 2.2. 
+ 		Be sure that the rest of the code is still 2.1 compatible (therefore code everything to 2.1 and do this 2.2 step last)
+ 	<application 
+ 			android:icon="@drawable/icon" 
+ 			android:label="@string/application_name" 
+ 			android:debuggable="true"
+ 			android:allowClearUserData="true"
+ 			android:installLocation="auto"
+ 			android:allowBackup="true"> 
+ 			-->
+        <activity android:name="TitleScreenActivity" android:label="@string/application_name" android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name="SplashActivity" android:label="@string/application_name"></activity>
+        <activity android:name="AboutActivity" android:label="About" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="PageActivity" android:label="@string/application_name"></activity>
+        <activity android:name="HelpActivity" android:label="@string/application_name"></activity>
+        <activity android:name="DialogHistoryActivity" android:label="@string/application_name" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="DialogSettingsActivity" android:label="@string/application_name" android:theme="@android:style/Theme.Dialog"></activity>
+    </application>
+</manifest>

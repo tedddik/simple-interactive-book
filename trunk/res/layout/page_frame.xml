@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:id="@+id/page_fl_Root" android:background="#000000">
+    <ImageView android:layout_height="fill_parent" android:adjustViewBounds="true" android:layout_width="fill_parent" android:id="@+id/page_iv_Background" android:scaleType="fitCenter" android:src="@drawable/temp"></ImageView>
+    <ImageView android:layout_height="fill_parent" android:adjustViewBounds="true" android:layout_width="fill_parent" android:id="@+id/page_iv_Background_fade" android:scaleType="fitCenter" android:src="@drawable/shadow"></ImageView>
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/page_sv_ScrollContainer" android:paddingBottom="10dip" android:paddingLeft="10dip" android:paddingTop="10dip">
+        <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/page_ll_MainContainer" android:paddingRight="10dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:id="@+id/page_ll_Header" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:typeface="sans" android:text="Page Title" android:textStyle="bold" android:layout_height="wrap_content" android:id="@+id/page_tvPageTitle" android:layout_marginLeft="10dip" android:textSize="24dip" android:shadowDy="1.2" android:shadowDx="1.2" android:shadowColor="#000000" android:shadowRadius="1.5" android:textColor="#ffffff"></TextView>
+                <TextView android:layout_width="fill_parent" android:typeface="sans" android:text="Location: " android:layout_height="wrap_content" android:id="@+id/page_tvLocation" android:layout_marginLeft="20dip" android:textSize="18dip" android:shadowColor="#000000" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="2" android:textColor="#ffffff"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/page_ll_Content" android:paddingBottom="40dip">
+                <TextView android:layout_width="fill_parent" android:typeface="sans" android:text="Content" android:layout_height="wrap_content" android:id="@+id/page_tvContent" android:layout_marginLeft="20dip" android:textSize="14dip" android:layout_marginBottom="20dip" android:shadowColor="#000000" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="1.5" android:textColor="#ffffff"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
